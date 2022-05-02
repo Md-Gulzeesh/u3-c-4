@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    width: 100%;
+    display: flex;
+    background-color: crimson;
+}
+#navbar a{
+    margin: 10px 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    flex: 1;
+}
+#search_input{
+    flex: 3;
+    margin: 5px 60px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    outline-color: aquamarine;
+}
+#sidebar{
+    width: 15%;
+    padding: 10px;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+}
+#sidebar h3{
+    margin: 20px 0px;
+    cursor: pointer;
+}
+#sidebar h3:hover{
+    color: crimson;
+}
+#results{
+    width: 100%;
+    background: grey;
+}
